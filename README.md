@@ -1,5 +1,7 @@
 # Diseño y simulación de un PID térmico con sensor dinámico
 
+En esta práctica se estudiará el diseño y la simulación de un sistema de control destinado a regular la temperatura en el interior de una pequeña cámara térmica o horno didáctico. El objetivo del sistema es mantener la temperatura en un valor deseado mediante la aplicación de una potencia eléctrica modulada a través de una resistencia calefactora. Este tipo de sistema presenta dinámica lenta, inercia térmica y comportamiento continuo, lo que lo convierte en un ejemplo ideal para el estudio de la teoría clásica de control. Los detalles de las instrucciones están detalladas en la memoria del trabajo: *CASO2 PID.pdf*.
+
 Este repositorio contiene la implementación computacional del **Apartado B** del trabajo *Diseño y simulación de un lazo PID térmico con sensor dinámico*, desarrollado para la asignatura **Técnicas de Optimización y Control**, aparte del desarrollo analítico del **Apartado A**, en el archivo *CASO2 PID.pdf*.
 
 La aplicación permite implementar y analizar el diseño analítico del controlador PID obtenido en el **Apartado A**, incorporando explícitamente la dinámica del sensor y proporcionando herramientas de simulación y visualización para el estudio del comportamiento dinámico del sistema.
